@@ -14,7 +14,7 @@
 	<h3>登録確認</h3>
 	<br>
 	ログインID:<%= account.getId() %>で登録しますか？<br><br>
-	<a href="/Login/RegisterUser?action=go">登録</a>
+	<a href="/Company_search/RegisterUser?action=go">登録</a>
 	<a href="/Login/RegisterUser">キャンセル</a>
 </body>
 </html>

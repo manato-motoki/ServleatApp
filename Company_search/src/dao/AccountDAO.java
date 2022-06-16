@@ -18,7 +18,7 @@ public class AccountDAO {
 		String pass = login.getPass();
 		try {
 			Class.forName("org.h2.Driver");
-			con = DriverManager.getConnection("jdbc:h2:tcp://localhost/~/test","sa","tomato10");
+			con = DriverManager.getConnection("jdbc:h2:tcp://localhost/~/test","sa","ryu");
 
 			String sql = "select * from C_ACCOUNT where id =? and pass = ?";
 

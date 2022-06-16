@@ -6,7 +6,6 @@ public class Account implements Serializable {
 	private String id;
 	private String pass;
 
-
 	public Account() {}
 	public Account( String _id , String _pass) {
 		id = _id; pass = _pass;

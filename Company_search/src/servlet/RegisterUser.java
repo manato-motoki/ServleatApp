@@ -31,7 +31,7 @@ public class RegisterUser extends HttpServlet {
 			boolean r = rg.execute( account );
 			String path;
 			if( r == true)
-				path = "WEB-INF/jsp/u_entry_2.jsp";
+				path = "WEB-INF/jsp/u_entry_3.jsp";
 			else
 				path = "WEB-INF/jsp/registerErr.jsp";
 			RequestDispatcher dispatcher =
@@ -52,7 +52,7 @@ public class RegisterUser extends HttpServlet {
 		session.setAttribute("LoginUser", account);
 
 		RequestDispatcher dispatcher =
-				request.getRequestDispatcher("WEB-INF/jsp/u_entry_3.jsp");
+				request.getRequestDispatcher("WEB-INF/jsp/u_entry_2.jsp");
 		dispatcher.forward(request, response);
 	}
 

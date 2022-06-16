@@ -12,7 +12,7 @@
 		ログインID&nbsp;:<input type ="text" name ="id"><br><br>
 		パスワード :<input type ="text" name = "pass"><br><br>
 		<input type="submit" value="ログイン">
-		<a href="/Login/RegisterUser">ユーザー登録</a>
+		<a href="/Company_search/RegisterUser">ユーザー登録</a>
 	</form>
 </body>
 </html>

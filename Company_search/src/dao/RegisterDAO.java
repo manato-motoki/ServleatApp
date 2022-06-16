@@ -14,8 +14,8 @@ public class RegisterDAO {
 
 		try {
 			Class.forName("org.h2.Driver");
-			con = DriverManager.getConnection("jdbc:h2:tcp://localhost/~/test","sa","tomato10");
-			String sql = "insert into C_ACCOUNT values( ?,?,?,?,?)";
+			con = DriverManager.getConnection("jdbc:h2:tcp://localhost/~/test","sa","ryu");
+			String sql = "insert into C_ACCOUNT values( ?,?)";
 
 			PreparedStatement pstmt = con.prepareStatement(sql);
 
